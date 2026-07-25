@@ -1,5 +1,4 @@
 import profile from "../assets/profile.png"
-import resume from "../assets/Amit_Kashyap_Resume.pdf";
 
 function About() {
   return (
@@ -69,12 +68,13 @@ function About() {
 
           </div>
           <a
-            href="/Amit_Kashyap_Resume.pdf"
-            download
-            className="bg-cyan-500 hover:bg-cyan-600 px-6 py-3 rounded-lg font-semibold transition"
-          >
-            Download Resume
-          </a>
+  href="/Amit_Kashyap_Resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center gap-2 bg-cyan-500 hover:bg-cyan-600 text-white px-6 py-3 rounded-lg font-semibold shadow-lg transition-all duration-300 hover:-translate-y-1"
+>
+  📄 View Resume
+</a>
         </div>
 
       </div>

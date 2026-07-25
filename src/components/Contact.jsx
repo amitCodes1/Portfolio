@@ -59,7 +59,7 @@ function Contact() {
 
               <div className="flex items-center gap-4">
                 <FaInstagram className="text-pink-500 text-2xl" />
-                <a href="#" className="hover:text-cyan-400">
+                <a href="https://www.instagram.com/amit_kashyap_429/" className="hover:text-cyan-400">
                   Instagram
                 </a>
               </div>
@@ -68,7 +68,7 @@ function Contact() {
 
           </div>
 
-          {/* Right Side */}
+        
           <form className="bg-slate-800 p-8 rounded-2xl border border-slate-700">
 
             <input

@@ -5,20 +5,20 @@ function Projects() {
     {
       title: "Employee Management System",
       description:
-        "A React application to manage employees with CRUD operations and LocalStorage.",
+        "A Modern employee Management application with secure login , task tracking , and responsive user interface.",
       tech: ["React", "Tailwind", "JavaScript"],
       image: "https://picsum.photos/600/400?random=1",
-      github: "#",
-      live: "#",
+      github: "https://github.com/amitCodes1/Employee-management-system",
+      live: "https://employee-management-system-alpha-khaki.vercel.app/",
     },
     {
-      title: "Weather App",
+      title: "E-Commerce Website",
       description:
-        "Weather application using a public API with real-time weather updates.",
+        "Resposive e-commerce web application built with React.js, Tailwind CSS,Axios and React Router.",
       tech: ["React", "API", "CSS"],
       image: "https://picsum.photos/600/400?random=2",
-      github: "#",
-      live: "#",
+      github: "https://github.com/amitCodes1/E-Commerce-site",
+      live: "https://e-commerce-site-6mj5.vercel.app/",
     },
     {
       title: "Todo App",
