@@ -21,13 +21,13 @@ function Projects() {
       live: "https://e-commerce-site-6mj5.vercel.app/",
     },
     {
-      title: "Todo App",
+      title: "React Api Gallery",
       description:
-        "A clean task management app with add, edit, delete, and complete features.",
+        "Built a simple gallery using React.js and Tailwind CSS",
       tech: ["React", "Tailwind"],
       image: "https://picsum.photos/600/400?random=3",
-      github: "#",
-      live: "#",
+      github: "#https://github.com/amitCodes1/react-api-gallery",
+      live: "https://react-api-gallery-side.vercel.app/",
     },
   ];
 
