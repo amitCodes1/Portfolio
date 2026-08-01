@@ -38,6 +38,18 @@ function Projects() {
       github: "https://github.com/amitCodes1/movie-Gallery",
       live: "https://movie-gallery-black.vercel.app/",
     },
+
+    {
+      
+      title: "To-Do-List",
+      description:
+        "Built a simple To-Do-List using JavaScript and CSS",
+      tech: ["LocalStorage", "HTML5", ],
+      image: "https://picsum.photos/600/400?random=4",
+      github: "https://github.com/amitCodes1/To-do-List",
+      live: "https://to-do-list-eight-virid-12.vercel.app/",
+    
+    }
   ];
 
   return (
