@@ -9,7 +9,7 @@ function Projects() {
       tech: ["React", "Tailwind", "JavaScript"],
       image: "https://picsum.photos/600/400?random=1",
       github: "https://github.com/amitCodes1/Employee-management-system",
-      live: "https://employee-management-system-alpha-khaki.vercel.app/",
+      live: "https://employee-management-system-yeac.vercel.app/",
     },
     {
       title: "E-Commerce Website",
@@ -28,6 +28,15 @@ function Projects() {
       image: "https://picsum.photos/600/400?random=3",
       github: "#https://github.com/amitCodes1/react-api-gallery",
       live: "https://react-api-gallery-side.vercel.app/",
+    },
+      {
+      title: "ShowVerse",
+      description:
+        "Built a simple gallery using React.js and Tailwind CSS",
+      tech: ["React.js", "React Router DOM", ],
+      image: "https://picsum.photos/600/400?random=4",
+      github: "https://github.com/amitCodes1/movie-Gallery",
+      live: "https://movie-gallery-black.vercel.app/",
     },
   ];
 
