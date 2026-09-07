@@ -1,80 +1,145 @@
-import profile from "../assets/profile.png"
+import {
+  FaReact,
+  FaCode,
+  FaLaptopCode,
+  FaDownload,
+} from "react-icons/fa";
+
+import profile from "../assets/profile.png";
 
 function About() {
   return (
     <section
       id="about"
-      className="bg-slate-950 text-white py-24 px-6"
+      className="about-section bg-slate-950 text-white py-24 px-6 overflow-hidden"
     >
-      <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-14 items-center">
+      <div className="max-w-7xl mx-auto">
 
-        {/* Left */}
-        <div className="flex justify-center">
-          <div className="relative">
-            <div className="w-80 h-80 rounded-3xl bg-cyan-500 rotate-6"></div>
+        <div className="about-heading">
 
-            <img
-              src={profile}
-              alt="Amit Kashyap"
-              className="w-80 h-80 object-cover rounded-3xl absolute top-0 left-0 -rotate-6 border-4 border-white shadow-2xl"
-            />
-          </div>
-        </div>
-
-        {/* Right */}
-        <div>
-
-          <p className="text-cyan-400 uppercase tracking-widest mb-2">
-            About Me
+          <p className="about-label">
+            ABOUT ME
           </p>
 
-          <h2 className="text-5xl font-bold leading-tight mb-6">
-            Passionate React Developer <br />
-            Building Modern Websites
+          <h2 className="about-title">
+            Turning Ideas Into
+            <span> Modern Web Experiences</span>
           </h2>
 
-          <p className="text-gray-400 text-lg leading-8 mb-6">
-            I'm a frontend developer who enjoys creating fast, responsive,
-            and visually appealing web applications using React.js,
-            JavaScript, and Tailwind CSS.
+          <p className="about-intro">
+            I'm a frontend developer passionate about building clean,
+            responsive and interactive web applications.
           </p>
 
-          <p className="text-gray-400 leading-8 mb-8">
-            My focus is writing clean code, building reusable components,
-            and delivering smooth user experiences across all devices.
-          </p>
+        </div>
 
-          <div className="grid grid-cols-2 gap-5 mb-8">
+        <div className="grid lg:grid-cols-2 gap-16 items-center mt-16">
 
-            <div className="bg-slate-900 p-5 rounded-xl border border-slate-800">
-              <h3 className="text-cyan-400 text-3xl font-bold">1+</h3>
-              <p className="text-gray-400">Years Learning</p>
+          <div className="about-visual">
+
+            <div className="profile-glow"></div>
+
+            <div className="profile-card">
+
+              <div className="profile-image-wrapper">
+
+                <img
+                  src={profile}
+                  alt="Amit Kashyap"
+                  className="profile-image"
+                />
+
+              </div>
+
+              <div className="profile-info">
+
+                <div>
+                  <h3>Amit Kashyap</h3>
+                  <p>Frontend Developer</p>
+                </div>
+
+                <div className="profile-status">
+                  <span></span>
+                  Available
+                </div>
+
+              </div>
+
             </div>
 
-            <div className="bg-slate-900 p-5 rounded-xl border border-slate-800">
-              <h3 className="text-cyan-400 text-3xl font-bold">10+</h3>
-              <p className="text-gray-400">Projects</p>
+            <div className="profile-tech react-tech">
+              <FaReact />
             </div>
 
-            <div className="bg-slate-900 p-5 rounded-xl border border-slate-800">
-              <h3 className="text-cyan-400 text-3xl font-bold">100%</h3>
-              <p className="text-gray-400">Responsive</p>
+            <div className="profile-tech code-tech">
+              <FaCode />
             </div>
 
-            <div className="bg-slate-900 p-5 rounded-xl border border-slate-800">
-              <h3 className="text-cyan-400 text-3xl font-bold">React</h3>
-              <p className="text-gray-400">Specialized</p>
+            <div className="profile-tech laptop-tech">
+              <FaLaptopCode />
             </div>
 
           </div>
-          <a
-  href="/Amit_Kashyap_Resume.pdf"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="inline-flex items-center gap-2 bg-cyan-500 hover:bg-cyan-600 text-white px-6 py-3 rounded-lg font-semibold shadow-lg transition-all duration-300 hover:-translate-y-1"
->
-  📄 View Resume
-</a>
+
+          <div className="about-content">
+
+            <p className="about-small-title">
+              WHO I AM
+            </p>
+
+            <h2>
+              Passionate about creating
+              <span> useful digital experiences.</span>
+            </h2>
+
+            <p>
+              I'm a frontend developer who enjoys creating fast,
+              responsive and visually appealing web applications
+              using React.js, JavaScript and Tailwind CSS.
+            </p>
+
+            <p>
+              I focus on writing clean and reusable code, building
+              component-based interfaces and creating experiences
+              that work smoothly across different screen sizes.
+            </p>
+
+            <div className="about-stats">
+
+              <div className="stat-card">
+                <strong>1+</strong>
+                <span>Years Learning</span>
+              </div>
+
+              <div className="stat-card">
+                <strong>10+</strong>
+                <span>Projects Built</span>
+              </div>
+
+              <div className="stat-card">
+                <strong>100%</strong>
+                <span>Responsive</span>
+              </div>
+
+              <div className="stat-card">
+                <strong>React</strong>
+                <span>Specialized</span>
+              </div>
+
+            </div>
+
+            <a
+              href="/Amit_Kashyap_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="resume-button"
+            >
+              <FaDownload />
+              View Resume
+            </a>
+
+          </div>
+
         </div>
 
       </div>
