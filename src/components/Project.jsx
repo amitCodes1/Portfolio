@@ -2,6 +2,16 @@ import { FaGithub, FaExternalLinkAlt, FaArrowRight } from "react-icons/fa";
 
 function Projects() {
   const projects = [
+
+     {
+      title: "Job Portal — Full Stack Web Application",
+      description:
+        "A full-stack job portal web application that connects job seekers and recruiters. Job seekers can create profiles, search and filter jobs, save jobs, apply for jobs, upload resumes, and track applications. Recruiters can create, edit, and delete job listings, manage their posted jobs, view applicants, and update application statuses.",
+      tech: ["React.js, TypeScript, Node.js, Express.js, MongoDB, Mongoose, Redux Toolkit, Axios, JWT, REST API, Tailwind CSS, React Router, React Hook Form, Multer, Vercel"],
+      image: "https://picsum.photos/600/400?random=1",
+      github: "https://github.com/amitCodes1/MyJobPortal",
+      live: "https://my-job-portal-rue9.vercel.app/",
+    },
     {
       title: "Employee Management System",
       description:
